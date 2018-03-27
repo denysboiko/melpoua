@@ -1,5 +1,8 @@
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Open+Sans:400,400i,700");
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Open+Sans:400,400i,700&subset=cyrillic');
 body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -145,7 +148,7 @@ ul.rating li {
 }
 
 a:focus, a:hover {
-  color: #7d71d3;
+  color: #b71c1c;
   text-decoration: none;
 }
 
@@ -205,7 +208,7 @@ a:focus, a:hover {
 }
 
 .bg-blue {
-  background: #7d71d3;
+  background: #b71c1c;
 }
 
 .bg-coming-soon {
@@ -225,7 +228,7 @@ a:focus, a:hover {
 
 .section-title h2 {
   font-size: 48px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   margin-bottom: 30px;
   font-weight: 300;
@@ -333,7 +336,7 @@ a:focus, a:hover {
   height: 70px;
   width: 70px;
   font-size: 35px;
-  background: #7d71d3;
+  background: #b71c1c;
   border-radius: 100%;
   color: #fff;
   line-height: 70px;
@@ -361,7 +364,7 @@ a:focus, a:hover {
 .input-group .input-group-addon {
   padding-left: 35px;
   padding-right: 35px;
-  background: #7d71d3;
+  background: #b71c1c;
   color: #fff;
   cursor: pointer;
 }
@@ -422,7 +425,7 @@ a:focus, a:hover {
   padding: 20px 35px;
   font-size: 14px;
   background: #fff;
-  color: #7d71d3;
+  color: #b71c1c;
 }
 
 .btn-download span {
@@ -433,7 +436,7 @@ a:focus, a:hover {
 .btn-main {
   padding: 25px 45px;
   border-radius: 3px;
-  background: #7d71d3;
+  background: #b71c1c;
   color: #fff;
   outline: none;
 }
@@ -449,7 +452,7 @@ a:focus, a:hover {
 
 .btn-main-rounded {
   letter-spacing: .075em;
-  background: #7d71d3;
+  background: #b71c1c;
   color: #fff;
   text-transform: uppercase;
   padding: 15px 40px;
@@ -463,7 +466,7 @@ a:focus, a:hover {
 .btn-main-md {
   padding: 17px 38px;
   border-radius: 3px;
-  background: #7d71d3;
+  background: #b71c1c;
   color: #fff;
   outline: none;
 }
@@ -480,7 +483,7 @@ a:focus, a:hover {
 .btn-main-sm {
   padding: 15px 35px;
   border-radius: 3px;
-  background: #7d71d3;
+  background: #b71c1c;
   color: #fff;
   outline: none;
   font-size: 14px;
@@ -497,7 +500,7 @@ a:focus, a:hover {
 
 .btn-white {
   background: white;
-  color: #7d71d3;
+  color: #b71c1c;
 }
 
 .btn-rounded-icon {
@@ -508,7 +511,7 @@ a:focus, a:hover {
 }
 
 .main-nav {
-  background: #7d71d3;
+  background: #b71c1c;
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -546,7 +549,7 @@ a:focus, a:hover {
 
 .footer-main {
   padding: 50px 0;
-  background: #7d71d3;
+  background: #b71c1c;
 }
 
 @media (max-width: 768px) {
@@ -652,7 +655,7 @@ a:focus, a:hover {
 }
 
 .cta-subscribe .content .title h2 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
 
@@ -665,7 +668,7 @@ a:focus, a:hover {
 }
 
 .cta-subscribe .content .subscription-tag p {
-  color: #7d71d3;
+  color: #b71c1c;
   letter-spacing: .1em;
 }
 
@@ -829,7 +832,7 @@ a:focus, a:hover {
 }
 
 .testimonial-slider .testimonial-item .content .pos-in-com span {
-  color: #7d71d3;
+  color: #b71c1c;
 }
 
 .testimonial-slider .testimonial-item .content .speech {
@@ -867,7 +870,7 @@ a:focus, a:hover {
 }
 
 .testimonial-slider .slick-prev:hover:before, .testimonial-slider .slick-next:hover:before {
-  color: #7d71d3;
+  color: #b71c1c;
 }
 
 .testimonial-slider .slick-prev:before, .testimonial-slider .slick-next:before {
@@ -940,7 +943,7 @@ a:focus, a:hover {
 }
 
 .about .about-block .about-item.active {
-  background: #7d71d3;
+  background: #b71c1c;
 }
 
 .about .about-block .about-item.active .icon i {
@@ -957,7 +960,7 @@ a:focus, a:hover {
 
 .about .about-block .about-item .icon i {
   font-size: 48px;
-  color: #7d71d3;
+  color: #b71c1c;
 }
 
 .about .about-block .about-item .content {
@@ -980,7 +983,7 @@ a:focus, a:hover {
 
 .feature .feature-item .icon i {
   font-size: 48px;
-  color: #7d71d3;
+  color: #b71c1c;
 }
 
 .feature .feature-item .content h5 {
@@ -1024,7 +1027,7 @@ a:focus, a:hover {
 }
 
 .screenshots .screenshot-slider .slick-dots li button {
-  border: 4px solid #7d71d3;
+  border: 4px solid #b71c1c;
   border-radius: 100%;
 }
 
@@ -1033,7 +1036,7 @@ a:focus, a:hover {
 }
 
 .screenshots .screenshot-slider .slick-dots li.slick-active button {
-  background: #7d71d3;
+  background: #b71c1c;
 }
 
 .pricing-table {
@@ -1067,7 +1070,7 @@ a:focus, a:hover {
 .pricing-table .price p {
   font-size: 36px;
   font-weight: bold;
-  color: #7d71d3;
+  color: #b71c1c;
 }
 
 .pricing-table .price p span {
@@ -1101,7 +1104,7 @@ a:focus, a:hover {
 
 .cta-download .content-block h2 {
   font-weight: 300;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 30px;
 }
 
@@ -1116,7 +1119,7 @@ a:focus, a:hover {
 
 .counter .counter-item {
   text-align: center;
-  background: #7d71d3;
+  background: #b71c1c;
   padding: 40px 0;
   border-radius: 8px;
 }
@@ -1182,7 +1185,7 @@ a:focus, a:hover {
 
 .team-member .skill-bar .progress .progress-bar {
   width: 0;
-  background: #7d71d3;
+  background: #b71c1c;
 }
 
 .team-member .skill-bar span {
@@ -1254,7 +1257,7 @@ a:focus, a:hover {
 
 .services .service-block i {
   font-size: 30px;
-  color: #7d71d3;
+  color: #b71c1c;
   margin-bottom: 15px;
   display: inline-block;
 }
@@ -1313,7 +1316,7 @@ a:focus, a:hover {
 
 .service .service-box .service-item i {
   font-size: 20px;
-  color: #7d71d3;
+  color: #b71c1c;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -1339,7 +1342,7 @@ a:focus, a:hover {
 }
 
 .feature .testimonial p {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 10px;
   font-style: italic;
   color: #242424;
@@ -1436,7 +1439,7 @@ a:focus, a:hover {
 .video-promo .content-block a i.video {
   height: 125px;
   width: 125px;
-  background: #7d71d3;
+  background: #b71c1c;
   display: inline-block;
   font-size: 40px;
   color: #fff;
@@ -1490,7 +1493,7 @@ a:focus, a:hover {
 
 .team-sm .image .social-links {
   position: absolute;
-  background: #7d71d3;
+  background: #b71c1c;
   left: 0;
   right: 0;
   text-align: center;
@@ -1596,7 +1599,7 @@ a:focus, a:hover {
 }
 
 .featured-article article.featured .content h2 a:hover {
-  color: #7d71d3;
+  color: #b71c1c;
 }
 
 .featured-article article.featured .content p {
@@ -1660,11 +1663,11 @@ a:focus, a:hover {
 }
 
 .post-sm .post-content .excerpts a:hover {
-  color: #7d71d3;
+  color: #b71c1c;
 }
 
 .post-sm .post-content .excerpts a:hover span {
-  color: #7d71d3;
+  color: #b71c1c;
 }
 
 .blog-single .single-post {
@@ -1810,13 +1813,13 @@ a:focus, a:hover {
 }
 
 .pagination-nav ul.pagination li a:hover {
-  background-color: #7d71d3;
+  background-color: #b71c1c;
   color: #fff;
   border-color: transparent;
 }
 
 .pagination-nav ul.pagination .active a {
-  background-color: #7d71d3;
+  background-color: #b71c1c;
   color: #fff;
   border-color: transparent;
 }
@@ -1837,11 +1840,11 @@ a:focus, a:hover {
 }
 
 .about .about-slider .owl-dots .owl-dot:hover span {
-  background: #7d71d3;
+  background: #b71c1c;
 }
 
 .about .about-slider .owl-dots .owl-dot.active span {
-  background: #7d71d3;
+  background: #b71c1c;
 }
 
 .create-stories .block img {
@@ -1930,7 +1933,7 @@ a:focus, a:hover {
   font-size: 200px;
   font-weight: 400;
   line-height: 266px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .error-page .center .block p {
