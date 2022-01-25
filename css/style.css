@@ -153,8 +153,12 @@ a:focus, a:hover {
 }
 
 .bg-1 {
-  background: url(../images/backgrounds/banner-bg.jpg) no-repeat;
-  background-size: cover;
+  background: #16BFFD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  /*background-size: cover;*/
 }
 
 .bg-2 {
@@ -163,8 +167,11 @@ a:focus, a:hover {
 }
 
 .bg-3 {
-  background: url(../images/backgrounds/desk-bg.jpg) fixed no-repeat;
-  background-size: cover;
+  background: #16BFFD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /*background-size: cover;*/
 }
 
 .bg-banner-2 {
@@ -193,9 +200,10 @@ a:focus, a:hover {
 }
 
 .bg-primary-shape {
-  background: url(../images/backgrounds/shape-overlay-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: #16BFFD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .bg-shape-two {
@@ -511,7 +519,7 @@ a:focus, a:hover {
 }
 
 .main-nav {
-  background: #b71c1c;
+  background: #16BFFD;
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
